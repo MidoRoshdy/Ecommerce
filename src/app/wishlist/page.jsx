@@ -12,7 +12,7 @@ export default function Wishlist() {
   useEffect(() => {
     loadWishlistItems();
   }, []);
-
+  //hi
   const loadWishlistItems = async () => {
     try {
       const token = localStorage.getItem("token");
